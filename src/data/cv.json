@@ -1,0 +1,88 @@
+{
+  "header": {
+    "name": "GABRIEL MERCADO",
+    "contacts": [
+      { "label": "Location", "value": "Salta - Argentina" },
+      { "label": "Phone", "value": "+54 3874596373" },
+      { "label": "Email", "value": "mercado.gabriel91@hotmail.com" },
+      {
+        "label": "LinkedIn",
+        "value": "https://www.linkedin.com/in/mercadogabriel/",
+        "href": "https://www.linkedin.com/in/mercadogabriel/"
+      }
+    ]
+  },
+  "summary": {
+    "title": "Professional Summary",
+    "text": "Software engineer with six years of experience designing, developing, and maintaining high-availability cloud systems, backend services, and full-stack products. Strong foundation in AWS, containers, CI/CD, and TypeScript/Python — Providing a robust infrastructure base essential for scaling production applications and LLM workloads. Currently expanding my technical specialization through a degree: Tecnicatura Universitaria en Programación at UTN, with a focus on modern algorithmic logic. Proven track record in working as part of multinational teams optimizing system performance and reliability. Currently focused on bridging the gap between robust infrastructure and scalable, next-generation AI solutions."
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "groups": [
+      { "title": "Languages", "content": "Python - TypeScript - JavaScript - SQL - C++" },
+      {
+        "title": "Cloud, Platform",
+        "content": "AWS (ECS, Fargate, ECR, Lambda, RDS, S3, CloudFront, IAM, CloudWatch, API Gateway, Cognito, SNS) · Docker · Infrastructure as Code (Pulumi: TypeScript/Python) · CI/CD (GitHub Actions, AWS CodePipeline) · Microservices · Serverless · Monitoring & observability"
+      },
+      {
+        "title": "Frameworks & Tech",
+        "content": "NestJS - NodeJS - Express - React - Redux Toolkit - TypeORM - Serverless Framework"
+      },
+      {
+        "title": "Engineering Practices",
+        "content": "Git - GitHub - Bitbucket - SonarQube - Unit testing - Code review"
+      }
+    ]
+  },
+  "workHistory": {
+    "title": "Work History",
+    "jobs": [
+      {
+        "companyAndDates": "Odaclick (Jun 2025 - to present)",
+        "title": "DevOps Engineer (Promoted from Frontend Developer)",
+        "description": "Promoted to DevOps and Cloud Infrastructure initiatives for US-based clients, managing multi-time-zone engineering teams and delivering scalable, cloud-native solutions.",
+        "highlightsTitle": "Key Responsibilities & Achievements:",
+        "highlights": [
+          "Infrastructure & Automation: Architected and maintained cloud-native infrastructures using AWS (ECS, Lambda, RDS, S3), reducing manual operations through automated Python/TypeScript scripts and Pulumi (IaC).",
+          "AI-Enhanced Development: Integrated AI agent-assisted tools (Cursor, Kiro) into the development lifecycle, leveraging SPEC-driven development to increase code quality and accelerate feature delivery.",
+          "Local AI & Linux Environments: Configured and managed Linux-based environments to run and test AI models locally, optimizing resource usage and ensuring data privacy for internal workflows.",
+          "CI/CD Orchestration: Designed and implemented robust CI/CD pipelines using GitHub Actions and AWS CodePipeline, ensuring 99.9% uptime for microservices and internal tools.",
+          "Observability & Performance: Monitored system health using CloudWatch, implementing proactive logging and alerting strategies to optimize system reliability and performance."
+        ]
+      },
+      {
+        "companyAndDates": "Betama (Jan 2025 - Jun 2025)",
+        "title": "Internal Systems Developer | Shenzhen, China",
+        "highlights": [
+          "Custom Software Solutions: Architected and deployed a bespoke management platform to digitize the institution's core operations, including student tracking, curriculum management, and automated progress reporting.",
+          "Workflow Automation: Designed an automated notification system that streamlined communication between staff and parents, significantly reducing manual administrative overhead.",
+          "End-to-End Ownership: Single-handedly managed the full development lifecycle—from initial requirements gathering with non-technical stakeholders to deployment and maintenance—ensuring the tool met the specific needs of an international educational environment.",
+          "Operational Optimization: Translated complex institutional pain points into a centralized digital workflow, providing measurable improvements in daily staff efficiency and data accuracy."
+        ]
+      },
+      {
+        "companyAndDates": "Darwoft (Oct 2023 - Aug 2024)",
+        "title": "Software Developer",
+        "highlights": [
+          "Frontend Architecture: Engineered complex, feature-rich interfaces for global clients using React and Redux Toolkit, ensuring high-performance user experiences and seamless API integrations.",
+          "Quality Assurance & Testing: Achieved 85% test coverage across mission-critical modules by implementing rigorous unit testing suites with Jest and React Testing Library.",
+          "Collaboration & Standards: Partnered with cross-functional teams in a high-velocity Agile environment, utilizing Bitbucket, SonarQube, and Jira to maintain elite code quality and delivery standards."
+        ]
+      },
+      {
+        "companyAndDates": "DinoCloud (Aug 2021 - Oct 2023)",
+        "title": "Software Developer | AWS Premier Tier Partner company",
+        "highlights": [
+          "Cloud-Native MVP Development: Engineered high-performance MVPs and prototypes for major enterprise clients, utilizing AWS Lambda, EC2, and RDS to deliver scalable serverless and cloud-native solutions.",
+          "Infrastructure Optimization: Implemented robust backend architectures using TypeScript, NestJS, and TypeORM, ensuring high data integrity and reliability via DynamoDB and PostgreSQL.",
+          "System Reliability: Leveraged AWS API Gateway, Cognito, and SNS to build secure, event-driven communications and identity management systems for large-scale applications."
+        ]
+      },
+      {
+        "companyAndDates": "Syncode (Jan 2020 - Dec 2020)",
+        "title": "Software Developer",
+        "description": "Full-Stack Mobile Delivery: Developed and deployed cross-platform mobile applications using React Native, implementing core features like Firebase authentication, real-time cloud functions, and relational database management via GraphQL/Hasura"
+      }
+    ]
+  }
+}
