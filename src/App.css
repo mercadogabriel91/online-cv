@@ -5,6 +5,24 @@
   text-align: left;
 }
 
+.cv-layout {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 2rem;
+}
+
+.cv-sidebar {
+  position: sticky;
+  top: 1rem;
+  align-self: start;
+}
+
+.cv-content .cv-section:first-child {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .cv-section {
   border-top: 1px solid #ddd;
   padding-top: 1.2rem;
@@ -15,6 +33,59 @@
   border-top: none;
   margin-top: 0;
   padding-top: 0;
+}
+
+.profile-card {
+  border-radius: 14px;
+  padding: 1rem;
+  background: #fafafa;
+}
+
+.profile-photo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 0.8rem;
+  border: 1px solid #d7d7d7;
+}
+
+.profile-contact-list {
+  list-style: none;
+  margin: 0.8rem 0 0;
+  padding: 0;
+}
+
+.profile-contact-list li {
+  margin: 0 0 0.6rem;
+  line-height: 1.3;
+}
+
+.contact-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.contact-icon {
+  color: #6b7280;
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact-value {
+  display: block;
+}
+
+.contact-link {
+  color: #0b57d0;
+  font-weight: 600;
 }
 
 h1 {
@@ -74,5 +145,19 @@ li {
 @media (max-width: 640px) {
   .cv-page {
     padding: 1.25rem 1rem 2rem;
+  }
+
+  .cv-layout {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .cv-sidebar {
+    position: static;
+  }
+
+  .profile-photo {
+    width: 90px;
+    height: 90px;
   }
 }

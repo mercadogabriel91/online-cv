@@ -2,10 +2,12 @@ export interface ContactItem {
   label: string
   value: string
   href?: string
+  linkText?: string
 }
 
 export interface HeaderSectionData {
   name: string
+  photo?: string
   contacts: ContactItem[]
 }
 

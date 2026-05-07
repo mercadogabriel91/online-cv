@@ -1,6 +1,7 @@
 {
   "header": {
     "name": "GABRIEL MERCADO",
+    "photo": "/profile_pricture.jpg",
     "contacts": [
       { "label": "Location", "value": "Salta - Argentina" },
       { "label": "Phone", "value": "+54 3874596373" },
@@ -8,7 +9,14 @@
       {
         "label": "LinkedIn",
         "value": "https://www.linkedin.com/in/mercadogabriel/",
-        "href": "https://www.linkedin.com/in/mercadogabriel/"
+        "href": "https://www.linkedin.com/in/mercadogabriel/",
+        "linkText": "View profile"
+      },
+      {
+        "label": "GitHub",
+        "value": "https://github.com/mercadogabriel91",
+        "href": "https://github.com/mercadogabriel91",
+        "linkText": "View profile"
       }
     ]
   },

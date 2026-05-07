@@ -10,11 +10,16 @@ function App() {
   const cvData = rawCvData as CVData
 
   return (
-    <main className="cv-page">
-      <HeaderSection data={cvData.header} />
-      <SummarySection data={cvData.summary} />
-      <SkillsSection data={cvData.skills} />
-      <WorkHistorySection data={cvData.workHistory} />
+    <main className="cv-page cv-layout">
+      <aside className="cv-sidebar">
+        <HeaderSection data={cvData.header} />
+      </aside>
+
+      <section className="cv-content">
+        <SummarySection data={cvData.summary} />
+        <SkillsSection data={cvData.skills} />
+        <WorkHistorySection data={cvData.workHistory} />
+      </section>
     </main>
   )
 }
