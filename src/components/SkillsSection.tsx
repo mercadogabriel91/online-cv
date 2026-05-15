@@ -6,7 +6,7 @@ interface SkillsSectionProps {
 
 function SkillsSection({ data }: SkillsSectionProps) {
   return (
-    <section className="cv-section">
+    <section className="cv-section" id="skills">
       <h2>{data.title}</h2>
       {data.groups.map((group) => (
         <div key={group.title}>

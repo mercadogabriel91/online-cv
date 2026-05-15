@@ -6,7 +6,7 @@ interface WorkHistorySectionProps {
 
 function WorkHistorySection({ data }: WorkHistorySectionProps) {
   return (
-    <section className="cv-section">
+    <section className="cv-section" id="work-history">
       <h2>{data.title}</h2>
       {data.jobs.map((job) => (
         <article className="job" key={`${job.companyAndDates}-${job.title}`}>

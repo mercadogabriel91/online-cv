@@ -1,5 +1,7 @@
 import './App.css'
 import HeaderSection from './components/HeaderSection'
+import NavBar from './components/NavBar'
+import PortfolioSection from './components/PortfolioSection'
 import SkillsSection from './components/SkillsSection'
 import SummarySection from './components/SummarySection'
 import WorkHistorySection from './components/WorkHistorySection'
@@ -16,9 +18,11 @@ function App() {
       </aside>
 
       <section className="cv-content">
+        <NavBar items={cvData.nav} />
         <SummarySection data={cvData.summary} />
         <SkillsSection data={cvData.skills} />
         <WorkHistorySection data={cvData.workHistory} />
+        <PortfolioSection data={cvData.portfolio} />
       </section>
     </main>
   )

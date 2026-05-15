@@ -5,6 +5,11 @@ export interface ContactItem {
   linkText?: string
 }
 
+export interface NavItem {
+  label: string
+  targetId: string
+}
+
 export interface HeaderSectionData {
   name: string
   photo?: string
@@ -39,9 +44,22 @@ export interface WorkHistorySectionData {
   jobs: WorkItem[]
 }
 
+export interface PortfolioProject {
+  name: string
+  description: string
+  url?: string
+}
+
+export interface PortfolioSectionData {
+  title: string
+  projects: PortfolioProject[]
+}
+
 export interface CVData {
+  nav: NavItem[]
   header: HeaderSectionData
   summary: SummarySectionData
   skills: SkillsSectionData
   workHistory: WorkHistorySectionData
+  portfolio: PortfolioSectionData
 }

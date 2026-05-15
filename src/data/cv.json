@@ -1,4 +1,10 @@
 {
+  "nav": [
+    { "label": "Summary", "targetId": "summary" },
+    { "label": "Skills", "targetId": "skills" },
+    { "label": "Work History", "targetId": "work-history" },
+    { "label": "Portfolio", "targetId": "portfolio" }
+  ],
   "header": {
     "name": "GABRIEL MERCADO",
     "photo": "/profile_pricture.jpg",
@@ -90,6 +96,21 @@
         "companyAndDates": "Syncode (Jan 2020 - Dec 2020)",
         "title": "Software Developer",
         "description": "Full-Stack Mobile Delivery: Developed and deployed cross-platform mobile applications using React Native, implementing core features like Firebase authentication, real-time cloud functions, and relational database management via GraphQL/Hasura"
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "projects": [
+      {
+        "name": "Online CV (this website)",
+        "description": "Personal CV website built with React + Vite, data-driven sections, and PWA support.",
+        "url": "https://gabriel-mercado.surge.sh/"
+      },
+      {
+        "name": "More projects on GitHub",
+        "description": "A curated list of repositories and experiments covering frontend, backend, and cloud work.",
+        "url": "https://github.com/mercadogabriel91"
       }
     ]
   }
