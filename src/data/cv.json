@@ -103,6 +103,11 @@
     "title": "Portfolio",
     "projects": [
       {
+        "name": "Fabimar Demo",
+        "description": "Demo frontend app built for a local logistics company.",
+        "url": "https://fabimar-demo.surge.sh/"
+      },
+      {
         "name": "Online CV (this website)",
         "description": "Personal CV website built with React + Vite, data-driven sections, and PWA support.",
         "url": "https://gabriel-mercado.surge.sh/"
